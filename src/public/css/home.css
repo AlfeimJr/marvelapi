@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Staatliches';
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  body{
+    background-image: url("/img/marvelBackground.gif");
+    background-size: cover;
+    
+  }
+.main-pai{
+  border: solid 1px white;
+  width: 70%;
+  margin-left: 300px;
+  background-color: white;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius:10px;
+  
+}
+#tocha{
+  max-height:250px;
+  width: auto;
+  height: auto;
+  margin-top: 50px;
+  margin-left: 30px;
+  cursor: pointer;
+  
+}
+.main-filho{
+  display: flex;
+  margin-left: 100px;
+}
+.main-filho p{
+  margin-top: 50px;
+  margin-left: 30px;
+  font-size: 20px;
+}
+.main-filho-2{
+  display: flex;
+  margin-left: 100px;
+}
+#homem-de-ferro{
+  max-height:350px;
+  width: auto;
+  height: auto;
+  margin-top: 50px;
+  margin-right: 30px;
+  cursor: pointer;
+  margin-left: 100px;
+}
+.main-filho-2 p{
+  margin-top: 100px;
+  margin-left: 30px;
+  font-size: 20px;
+}
+.main-filho-3 p{
+  margin-top: 100px;
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+.main-filho-3{
+  display: flex;
+  margin-left: 100px;
+}
+#vingadores{
+  max-height:350px;
+  width: auto;
+  height: auto;
+  margin-top: 50px;
+  margin-right: 30px;
+  cursor: pointer;
+  
+}
+#historia{
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
+}
+.footer-filho{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    min-height: 5.625rem;
+    background: rgb(0, 58, 106);
+}
+.form-pai{
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    flex: 1 1 0%;
+    max-width: 76rem;
+    gap: 1rem;
+}
+.fotter-marvel{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 15.375rem;
+}
+#novidades{
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+#exclusivas{
+  font-size: 0.75rem;
+    line-height: 1.125rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+
+}
+#novidadesExclusivas{
+  display: flex;
+    flex: 1 1 0%;
+    gap: 2rem;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    margin-top: -50px;
+}
+.nome{
+    flex: 0 2 19.625rem;
+    height: 48px;
+    background: rgb(242, 243, 244);
+    border: 1px solid rgb(222, 224, 228);
+    box-sizing: border-box;
+    font-size: 14px;
+    padding: 12px 0px 12px 16px;
+    border-radius: 0.25rem;
+}
+.email{
+  flex: 0 2 19.625rem;
+    height: 48px;
+    background: rgb(242, 243, 244);
+    border: 1px solid rgb(222, 224, 228);
+    box-sizing: border-box;
+    font-size: 14px;
+    padding: 12px 0px 12px 16px;
+    border-radius: 0.25rem;
+}
+.botao{
+  display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 3rem;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    padding: 0.5rem 3rem;
+    background: rgb(255, 0, 0);
+    border-radius: 0.25rem;
+    cursor: pointer;
+    outline: none;
+    border:none;
+}
